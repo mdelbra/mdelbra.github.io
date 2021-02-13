@@ -1,0 +1,386 @@
+body {
+  background: #FFFFFF; 
+  color: black;
+  font-family: arial,sans-serif;
+  margin: 6%;
+  width: 700px;
+  padding: 0em 8%;
+}
+
+
+div.navigation {
+	width: 700px;
+    padding: 5px; 
+    color: #452F38;
+    font-size: 100%;
+    font-family:  Helvetica Narrow, sans-serif;
+	text-align: left;
+}
+
+
+div.navigation ul{
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+	text-align: left;
+}
+
+div.navigation ul li{
+    margin-right: 5px;
+	text-align: left;
+}
+
+div.navigation img {
+	margin: 20px 0px 0px 0px;
+	border: 1px solid #833D35;
+    float: center;
+}
+
+div.fragment { 
+	width: 700px;
+	border: 1px solid #523440;
+	background-color: #f5f5f5;
+    padding-left: 4px;
+	margin: 4px;
+}
+
+div.box { 
+    width: 700px;
+	background-color: transparent;
+	border: 0px solid #833D35;
+	color: black;
+	padding: 4px 20px 4px 20px;
+    font-size: 100%;
+    font-family:  arial, sans-serif;
+	
+}
+
+
+div.boxleft { 
+	width: 515px;
+	background-color: transparent;
+	color: black;
+    float: left;
+    padding: 10px 10px 20px 0px;
+    text-align: justify;
+    font-size: 90%;
+    font-family:  arial, sans-serif;
+
+}
+
+
+div.boxright { 
+	width: 160px;
+	background-color: transparent;
+	color: black;
+    float: right;
+    padding: 0px 10px 20px 0px;
+    font-size: 78%;
+    font-family:  arial, sans-serif;
+
+}
+ 
+div.boxright img {
+	width: 100%;
+	margin: 0px 0px 20px 0px;
+	border: 2px solid #833D35;
+    float: right;
+}
+       
+
+
+div.footer {
+	width: 700px;
+        padding: 5px; 
+        color: #452F38;
+        font-size: 65%;
+        font-family:  Verdana, sans-serif;
+        text-align: center;
+}
+
+
+
+a {
+	text-decoration: none; 
+	color: black;
+}
+
+a:hover {
+	background-color: #F0EAEA;
+	color: black;
+}
+
+a.nav {
+	text-decoration: none; 
+	color: black;
+}
+
+a.nav:hover {
+	background-color: #F0EAEA;
+	color:#523440;
+}
+
+a.code {
+	font-weight: normal; 
+	color: #A020F0;
+}
+
+a.code:hover {
+	background-color: #FF0000;
+	color: #FFFFFF;
+}	
+
+a.foot {
+	text-decoration: none; 
+	color: #FFFFFF;
+}
+
+a.foot:hover {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+a.ref {
+	text-decoration: none; 
+	color: #000000;
+}
+
+a.ref:hover {
+	background-color: #FFFFFF;
+	color: #452F38;
+}
+
+
+h1 {
+	width: 95%;
+	background: transparent;
+	color: black;
+	font-size: 160%;
+	text-align: left;
+}
+
+h1 a.ref:hover {
+	background-color: #D6D6D6;
+	color: black;
+}
+
+
+h1 a.ref {
+	text-decoration: none; 
+	color: black;
+}
+
+
+
+h2 {
+ font-family: Helvetica;
+ font-size: 130%;
+ border-bottom-width: 0px;
+ border-bottom-style: solid;
+ border-bottom-color: #333333;
+ background-color: #EAEAEA;
+
+}
+
+
+h2 a.ref:hover {
+	background-color: #EAEAEA;
+	color: black;
+}
+
+h2 a.ref {
+	text-decoration: none; 
+	color: #000000;
+}
+
+h3 {
+	background: #FFFFFF;
+	color: black;
+	font-size: 120%;
+}
+
+
+
+
+address {
+	font-size:small;
+}
+
+.it {
+    font-style: italic;
+}
+
+
+
+table.finalpubli{
+    background  : #FFFFFF; 
+	border		: 2px solid rgb(230,170,170);
+	width 		: 100%;
+}
+
+
+table.finalpubli tr{
+	vertical-align	: top;
+}
+
+table.finalpubli td{
+	padding		: 1ex 1.5ex;
+}
+
+
+.finalpubli img{
+    border: 2px solid #833D35;
+	float		: right;
+	margin		: 0.5ex 0 1ex 2ex;
+}
+
+.finalpubli{
+	margin-bottom	: 1ex;
+}
+
+.finalpubli .title{
+	font-weight	: bold;
+	text-align	: left;
+}
+
+
+.finalpubli .where{
+	font-style	: italic;
+	text-align	: left;
+}
+
+
+.finalpubli .year{
+}
+
+
+.finalpubli ul.comment{
+	list-style-type : square;
+	padding-left 	: 2ex;
+	margin-left	: 0;
+	margin-bottom	: 0;
+}
+
+
+.finalpubli ul.comment li{
+	margin-bottom	: 0.75ex;
+}
+
+
+/*#IPOL PUBLI;*/
+
+
+table.ipolpubli{
+    background  : #FFFFFF;
+	border		: 2px solid rgb(170,170,230);
+	width 		: 100%;
+}
+
+
+table.ipolpubli tr{
+	vertical-align	: top;
+}
+
+table.ipolpubli td{
+	padding		: 1ex 1.5ex;
+}
+
+
+.ipolpubli img{
+    border: 2px solid #833D35;
+	float		: right;
+	margin		: 0.5ex 0 1ex 2ex;
+}
+
+.ipolpubli{
+	margin-bottom	: 1ex;
+}
+
+.ipolpubli .title{
+	font-weight	: bold;
+	text-align	: left;
+}
+
+
+.ipolpubli .where{
+	font-style	: italic;
+	text-align	: left;
+}
+
+
+.ipolpubli .year{
+}
+
+
+.ipolpubli ul.comment{
+	list-style-type : square;
+	padding-left 	: 2ex;
+	margin-left	: 0;
+	margin-bottom	: 0;
+}
+
+
+.ipolpubli ul.comment li{
+	margin-bottom	: 0.75ex;
+}
+
+
+
+/*#Patent PUBLI;*/
+
+
+table.patentpubli{
+    background  : #FFFFFF;
+	border		: 2px solid rgb(240,230,140);
+	width 		: 100%;
+}
+
+
+table.patentpubli tr{
+	vertical-align	: top;
+}
+
+table.patentpubli td{
+	padding		: 1ex 1.5ex;
+}
+
+
+.patentpubli img{
+    border: 2px solid #833D35;
+	float		: right;
+	margin		: 0.5ex 0 1ex 2ex;
+}
+
+.patentpubli{
+	margin-bottom	: 1ex;
+}
+
+.patentpubli .title{
+	font-weight	: bold;
+	text-align	: left;
+}
+
+
+.patentpubli .where{
+	font-style	: italic;
+	text-align	: left;
+}
+
+
+.patentpubli .year{
+}
+
+
+.patentpubli ul.comment{
+	list-style-type : square;
+	padding-left 	: 2ex;
+	margin-left	: 0;
+	margin-bottom	: 0;
+}
+
+
+.patentpubli ul.comment li{
+	margin-bottom	: 0.75ex;
+}
+
