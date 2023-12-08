@@ -216,7 +216,7 @@ address {
 table.finalpubli{
     background  : #FFFFFF; 
 	border		: 2px solid rgb(230,170,170);
-	width 		: 100%;
+	width 		: 90%;
 }
 
 
@@ -274,7 +274,7 @@ table.finalpubli td{
 table.ipolpubli{
     background  : #FFFFFF;
 	border		: 2px solid rgb(170,170,230);
-	width 		: 100%;
+	width 		: 90%;
 }
 
 
@@ -333,7 +333,7 @@ table.ipolpubli td{
 table.patentpubli{
     background  : #FFFFFF;
 	border		: 2px solid rgb(240,230,140);
-	width 		: 100%;
+	width 		: 90%;
 }
 
 
